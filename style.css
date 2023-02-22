@@ -1,9 +1,12 @@
 #outside {
   z-index: 1;
-  position: absolute;
-  background-color: rgb(255, 255, 255);
+  position: absolute; 
+  background-image: url('https://cutewallpaper.org/21/background-gif-html/Power-Mountains-Zone-animation-Motion-design-Animation.gif');
+  background-size: 100%;
+  background-position: center;
   width: 100%;
   height: 100%;
+  overflow: visible;
   text-align: center;
   transition: 1s;
   transform-origin: 0;
@@ -14,7 +17,7 @@
 }
 
 #outside-title {
-  color: black;
+  color: rgb(205, 214, 76);
   font-family: Courier;
   font-size: 12pt;
   text-align: center;
@@ -39,7 +42,11 @@
   background-color: white;
   width: 100%;
   height: 100%;
+  margin: 0%;
   text-align: center;
+  background-image: url('https://cutewallpaper.org/21/background-gif-html/Power-Mountains-Zone-animation-Motion-design-Animation.gif');
+  background-size: 100%;
+  background-position: center;
 }
 
 #inside-title {
